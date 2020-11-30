@@ -9,6 +9,8 @@ function myFunction2() {
     document.getElementById("photo").style.display = "block";
 }
 
+
+
 const counter = document.getElementById('counter');
 console.log(counter);
 
