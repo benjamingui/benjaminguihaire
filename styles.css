@@ -1,0 +1,537 @@
+/*header*/
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+body{
+     background-color: steelblue;
+}
+    
+.header{
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    display:block;
+    z-index: 3;
+    padding: 20px;
+    background-color: #14131c;
+        
+}
+
+    .inner_header{
+        width: 1000px;
+        height: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    .logoc{
+        height: 100%;
+        display: table;
+        float: left;
+    }
+    
+    .logoc h5{
+        color: white;
+        height: 100%;
+        display: table-cell;
+        vertical-align: middle;
+        font-family: Righteous;
+        font-size: 32px;
+    }
+    
+    .nav{
+        float: right;
+        height: 100%;
+    }
+    
+    .nav a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    }
+
+    .nav a:last-child{
+    padding-right: 0;
+    }
+    
+    .nav a li{
+        display: table-cell;
+        vertical-align: middle;
+        height: 100%;
+        color: white;
+        font-family: Righteous;
+    }
+
+/*===================ACC======================*/
+#bando{
+    background-color: white;
+    width: 100%;
+    height: 115px;
+}
+
+.pres{
+    position: relative;
+    margin-top: 15px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.pres .gauche {
+    display: flex;
+    float: left;
+    width: 30%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+}
+.pres .gauche img{
+    border:5px solid white;
+    border-radius: 360px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.pres .droite{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 40%;
+    height: 50%;
+    justify-content: space-evenly;
+    font-family: Oxygen;
+    font-size: 15pt;
+    text-align: left;
+    font-style: oblique;
+    margin-left:3%;
+}
+
+p{
+display: block;
+}
+
+div{
+    display: block;
+}
+
+#inst{
+    width: 25px;
+    margin-top: 15px;
+}
+
+#twi{
+    width: 25px;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+
+#ytb{
+    width: 25px;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+
+.plus{
+    display: flex;
+    flex-direction: column;
+    float: middle;
+    justify-content: space-evenly;
+    font-size: 15pt;
+    text-align: center;
+    font-family: Oxygen;
+    color: white;
+    font-style: black;
+    
+}
+
+.button1 {
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 90px;
+    color: steelblue;
+    font-family: "Righteous";
+    font-size: 25px;
+    padding: 16px 35px;
+    text-decoration: none;
+    margin-top: 15px;
+    background-color: white;
+}
+#map{
+    top: 15px;
+    position: relative;
+    float: middle;
+    border: 5px solid white;
+    
+}
+/*==================FOR=====================*/
+
+#Formation{
+    display: flex;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+    top: 50px;
+}
+#titra{
+    color: black;
+}
+.blocA{
+    position: relative;
+    margin-top: 15px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: steelblue;
+    margin-left: 3%;
+}
+
+.blocA .gauche2 {
+    display: flex;
+    float: right;
+    width: 50%;
+    height: 80%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.blocA .gauche2 img{
+    border:5px solid steelblue;
+    border-radius: 360px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.blocA .droite2{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 40%;
+    height: 50%;
+    justify-content: space-evenly;
+    font-family: Oxygen;
+    font-size: 15pt;
+    text-align: right;
+    font-style: oblique;
+}
+
+
+#Formation2{
+    display: flex;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 1920px;
+    background-color: steelblue;
+    top: 50px;
+}
+
+.blocA{
+    position: relative;
+    margin-top: 15px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: steelblue;
+}
+
+.blocB .gauche3 {
+    display: flex;
+    float: right;
+    width: 50%;
+    height: 80%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.blocB .gauche3 img{
+    border:5px solid white;
+    border-radius: 360px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.blocB .droite3{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 40%;
+    height: 50%;
+    justify-content: space-evenly;
+    font-family: Oxygen;
+    font-size: 15pt;
+    text-align: right;
+    font-style: oblique;
+}
+
+.blocB{
+    position: relative;
+    margin-top: 15px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 3%;
+}
+
+#Formation3{
+    display: flex;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+    top: 50px;
+}
+
+.blocC{
+    position: relative;
+    margin-top: 15px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: steelblue;
+    margin-left: 3%;
+}
+
+.blocC .gauche3 {
+    display: flex;
+    float: right;
+    width: 50%;
+    height: 80%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.blocC .gauche3 img{
+    border:5px solid steelblue;
+    border-radius: 360px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.blocC .droite3{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 40%;
+    height: 50%;
+    justify-content: space-evenly;
+    font-family: Oxygen;
+    font-size: 15pt;
+    text-align: right;
+    font-style: oblique;
+}
+
+#comp{
+    position: relative;
+    margin-top: 150px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Oxygen;
+    display: flex;
+    flex-direction: column;
+    float: middle;
+    font-size: 15pt;
+    text-align: center;
+    font-style: black;
+}
+
+#comp h1{
+    font-size: 45px;
+}
+
+.comp{
+    
+}
+
+#images img{
+    width: 75px;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+
+/*==================RÉA=====================*/
+#rea {
+    flex-direction: column;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    z-index: 2;
+    margin-top: 250px;
+    margin-bottom: 150px;
+}
+
+#rea .contient{
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#rea .contient .top {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 60%;
+    left: 115px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#rea .blocD h1 {
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: steelblue;
+    font-family: Oxygen;
+    display: flex;
+    flex-direction: column;
+    float: middle;
+    text-align: center;
+    font-style: black;
+    font-size: 45px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}  
+
+#bouton1{
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 90px;
+    color: steelblue;
+    font-family: "Righteous";
+    font-size: 25px;
+    padding: 10px 25px;
+    text-decoration: none;
+    margin-top: 15px;
+    background-color: white;
+}
+
+#bouton2{
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 90px;
+    color: steelblue;
+    font-family: "Righteous";
+    font-size: 25px;
+    padding: 10px 25px;
+    text-decoration: none;
+    margin-top: 15px;
+    background-color: white;
+}
+
+#vid{
+    margin-top: 15px;
+}
+
+#photo{
+    padding-top: 15px;
+}
+
+#Contact{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+}
+#Contact h1{
+    position: relative;
+    margin-top: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Oxygen;
+    display: flex;
+    flex-direction: column;
+    float: middle;
+    text-align: center;
+    font-style: black;
+    font-size: 45px;
+}
+
+#form{
+    margin-bottom: 150px; 
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    font-family: Oxygen;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-style: black;
+    font-size: 20px;
+    color: white;
+}
+
+.boite td{
+    width: 200px;
+    height: 80px;
+    text-align: left;
+}
+
+.boite #submit{
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 90px;
+    color: steelblue;
+    font-family: "Righteous";
+    font-size: 25px;
+    padding: 10px 25px;
+    text-decoration: none;
+    margin-top: 15px;
+    background-color: white;
+}
+
+.boite #reset{
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 90px;
+    color: steelblue;
+    font-family: "Righteous";
+    font-size: 25px;
+    padding: 10px 25px;
+    text-decoration: none;
+    margin-top: 15px;
+    background-color: white;
+}
+
+#footer{
+    position: fixed;
+    width: 100%;
+    height: 125px;
+    z-index: 4;
+    bottom: 0px;
+    font-family: Acme;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    background-color: #191A1C;
+    padding: 5px;
+}
+
+  
